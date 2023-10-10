@@ -1,0 +1,54 @@
+ÖZET
+
+VERİ TABANI TARİHÇESİ
+
+Bir konuyla ilgili verilere hızlı ve kolay biçimde erişebilme isteği, verilerin düzenli biçimde saklanmasını sağlayan yapı veritabanıdır.
+Geçmişte veriler fiziksel olarak, kağıt, defter, dosya kullanımı ile saklanmaktaydı.
+Düzenlenmesi ve saklanması gereken veri miktarının giderek artması ve bu verilerin fiziksel olarak uzun süre saklanabilmesi,
+korunabilmesi ve istendiğinde hızlıca erişilebilinemiyordu ve bu sebepten dolayı bilgisayar teknolojilerinde gelişmenin temel amacı oldu.
+Bu gelişim sayesinde çok büyük miktarda ve karmaşık yapıda olan verilerin saklanması ve yönetilmesi oldukça kolaylaşmıştır.
+Bu nedenle günümüzde veritabanı denilince akıllara bilgisayar ortamında oluşturulan veritabanları gelmektedir.
+
+VERİTABANINA İLİŞKİN TEMEL KAVRAMLAR
+
+Genelde Veri kavramı Bilgi kavramı birbiri ile karıştırılır.
+Veri kavramı ham gözlemler, işlenmemiş gerçekler ya da izlenimlerdir.
+Bilgi kavramı ise verinin işlenmiş ve karar verme sürecine destek olacak duruma dönüştürülmüş biçimidir.
+Veritabanı mantıksal ve fiziksel olarak tanımlanmış veriler bütünüdür.
+
+Veritabanının özellikleri kısaca şunlardır;
+-Veritabanı herhangi bir kurumda birden fazla uygulamada ortak olarak kullanılabilen verilerden oluşur.
+-Veritabanında sürekli niteliği olan veriler bulunur.
+-Veritabanı, ortak kullanılan verilerin çok amaçlı kullanılmasına olanak verir.
+-Veritabanında saklanan veriler durağan nitelikte değişmez veriler değildir. 
+
+Veritabanı tanımlamak, veritabanı oluşturmak, veritabanında işlem yapmak, veritabanının farklı kullanıcı 
+yetkilerini belirlemek, veritabanının bakımını ve yedeklemesini yapmak için geliştirilmiş programlar bütününe
+Veritabanı Yönetim Sistemi (VTYS-Database Management System) denir.
+Veritabanında yer alacak verinin adı, tipi, uzunluğu gibi veri yapıları ve özelliklerinin belirlenmesine veritabanı tanımlama denir.
+Veritabanını yaratma ve veriyi depolama sürecidir. Verilerin depolanacağı fiziksel bellek alanının belirlenmesi ve verilerin bu alana aktarılması veritabanı oluşturmaktır.
+Veritabanında işlem veritabanını izleme, veriler üzerinde sorgulama yapma, veritabanında gerekli olan değişiklikleri yaparak veritabanını güncelleme ve verilerden rapor elde etme işlevlerini içerir.
+VTYS’ler, sağladıkları avantajlara rağmen, maliyet açısından geleneksel dosya sistemlerine göre dezavantajlıdır. VTYS için gerekli olan donanım, yazılı ve veritabanı eğitimi için başlangıç yatırımlarının 
+yüksek olması, veri güvenliğini sağlama, aynı anda gerçekleştirilen işlemlerin kontrolü, veri kurtarma ve bütünlük fonksiyonları için gerekli olan sabit maliyetlerin yüksek olması VTYS’nin dezavantajlı yönlerini 
+oluşturmaktadır.Bu sebeple geleneksel dosya sistemlerini kullanmak daha mantıklıdır.
+
+VERİTABANI KULLANICILARINI SINIFLANDIRMA
+
+Veritabanı kullanıcıları veritabanı ile etkileşim biçimlerine göre sınıflandırılırlar. 
+Veritabanı yöneticisi; veritabanına erişim yetkilerini belirleme, veritabanı kullanımının düzenlenmesi ve izlenmesini sağlama, ihtiyaç duyulan yazılım ve donanım kaynaklarını edinme bu kişinin sorumluluklarıdır.
+Veritabanı tasarımcısı; veritabanında saklanacak olan verilerin tanımlanmasından ve bu verilerin depolanması ve gösterilmesi için gerekli olan uygun yapıların seçilmesinden sorumludur.
+
+VERİTABANI YÖNETİM SİSTEMLERİNİN MİMARİSİ
+
+Veri modeli, bir veritabanının mantıksal yapısını tanımlamada kullanılacak kavramlar, işlemler ve kurallar bütünüdür. Veritabanının mantıksal yapısı; veri tipleri, veriler arasındaki ilişkiler, veri üzerinde uygulanacak kısıtlamalar vb. dir.
+Veri modelleri kavramsal veri modeli, fiziksel veri modeli ve uygulama veri modeli olarak sınıflandırılır.
+Veritabanının herhangi bir veri modeliyle tanımlanması ise veritabanı şeması olarak adlandırılır. Veritabanı yönetim sistemlerinde genel olarak üç şema mimarisi kullanılır. Üç şema mimarisinin amacı kullanıcı uygulamalarını fiziksel 
+veritabanından ayırt etmektir. Bu mimaride şemalar izleyen üç düzeyde tanımlanır:
+İçsel (fiziksel) düzey, Kavramsal düzey, Dışsal (görünüm) düzey
+
+Veritabanları, kullandıkları veri modeli temel alınarak aşağıda verilen biçimde sıralanabilir:
+Hiyerarşik veritabanı, Ağ veritabanı, İlişkisel veritabanı, Nesneye yönelik veritabanı
+
+Yaygın kullanılan veritabanı yönetim sistemi yazılımları kısaca şunlardır:
+MS SQL Server, Oracle, MySQL,MS Access, PostgreSQL, IBM DB2, Informix.
+
